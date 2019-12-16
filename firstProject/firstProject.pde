@@ -62,7 +62,7 @@ void fun()
 
 	println(71);
 	println(71.5);
-	println("Kør tal:",runWhile);
+	println("Kør tal:", runWhile);
 	println();
 
 if (runWhile)
