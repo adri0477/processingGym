@@ -6,13 +6,15 @@
 */
 
 //Declare center ellipse args
-int centerEllipseX = 250;
-int centerEllipseY = 250;
-int centerEllipseRh = 250;
-int centerEllipsRw = 250;
+final int centerEllipseX = 250;
+final int centerEllipseY = 250;
+final int centerEllipseDh = 250;
+final int centerEllipsDw = 250;
+
 
 
 //Setup
+
 void setup(){
   //Set window size
   size(500,500);
@@ -37,7 +39,7 @@ void draw()
   //Draw ellipse
   
     
-  ellipse(centerEllipseX, centerEllipseY, centerEllipsRw,centerEllipseRh);
+  ellipse(centerEllipseX, centerEllipseY, centerEllipsDw,centerEllipseDh);
 
   
   //New fill and stroke color
@@ -78,7 +80,7 @@ int X = 0;
 }
 
 void mouseClicked() {
-if ( isHit(centerEllipseX, centerEllipseY, centerEllipsRw,centerEllipseRh) ){
+if ( isHit(centerEllipseX, centerEllipseY, centerEllipsDw/2,centerEllipseDh/2) ){
   fun();
 }
 }  
