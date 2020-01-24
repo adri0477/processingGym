@@ -1,3 +1,5 @@
+//Exercise 1
+
 /*
 1. Hvad er Imperativ Programmering?
    Det er en form for programmering hvor du bruger udtryk til at ændre programmets "State".
@@ -23,3 +25,5 @@
   o Hvad er en boolean?
     en bool er enten sant eller falsk (true/false).
 */
+
+//By Adrian Alexandru Hess Christensen
